@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view.
     self.title = @"协议";
     
+    
+    //**********************我在这里修改过***********************//
+    
+    
     UIWebView *webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:webView];
 
